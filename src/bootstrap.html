@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta author="Friedel Majoor">
+    <title>MPCN - bootstrap</title>
+    <script type="module" src="./js/main.js"></script>
+    <script type="module" src="./css/customclass.css" rel="stylesheet"></script>
+</head>
+<body>
+<section>
+    <div class="row">
+        <div class="col-md-12">
+            <img src="images/computer.jpg" class="img-fluid rounded-circle"> <!-- rounded-circle maakt de afbeelding/container circelvormig -->
+        </div>                              <!-- img-fluid zorgt voor responsiviteit over alle screensizes heen -->
+    </div>
+</section>
+
+<br>
+<!-- 1 row contains 12 columns -->
+    <!-- nesting rows in columns - gives new 12 columns possibilities -->
+<section>
+    <div class="row">
+        <div class="col-md-12">
+            <div class="row">                                                         <!-- hier kan je v de grootte van de afbeelding scalen naar 1 van 12 van columns -->
+                <div class="container-md"><img src="images/mpcnetworklogo.png" class="img-fluid col-sm-3 col-md-3 col-lg-3"></div> <!-- via nested rows kan je afbeeldingen herscalen in sectie -->
+            </div>
+        </div>
+    </div>
+</section>
+<br>    <!-- nieuwe sectie -->
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="container-sm container-md container-lg container-xl container-xxl">
+                    <img src="images/computer.jpg" class="col-sm-6 col-md-6 col-lg-6 rounded img-fluid">
+                    <strong>Bootstrap :</strong> Bootstrap is een populair front-end framework dat het bouwen van moderne, responsive websites eenvoudiger en sneller maakt. Het biedt kant-en-klare componenten en een gestandaardiseerde structuur die vooral handig is voor beginnende én ervaren webontwikkelaars.
+                    <h4>Wat is Bootstrap?</h4>
+                    <p>
+                        Bootstrap is een open-source front-end framework dat in 2011 werd ontwikkeld door Twitter. Het is ontworpen om het proces van webontwikkeling te versnellen door een verzameling van gestandaardiseerde HTML-, CSS- en JavaScript-componenten aan te bieden. Denk aan knoppen, formulieren, navigatiebalken, modals en nog veel meer. Dankzij deze herbruikbare elementen kun je snel een consistente en professionele website opzetten zonder alles vanaf nul te coderen.
+
+                        Een belangrijk kenmerk van Bootstrap is dat het "mobile-first" is. Dat betekent dat websites standaard geoptimaliseerd zijn voor mobiele apparaten en vervolgens worden aangepast voor grotere schermen. Dit maakt het framework bijzonder geschikt voor het bouwen van responsive websites die goed werken op smartphones, tablets en desktops.
+                    </p>
+                    <h4>Wat zijn de voordelen van Bootstrap? </h4>
+                    <p>
+                        <ol>
+                            <li><strong>Snelle ontwikkeling</strong></li>
+                                <p>
+                                    Doordat Bootstrap kant-en-klare componenten en stijlen biedt, kun je veel sneller een website bouwen. Je hoeft niet telkens opnieuw CSS te schrijven voor knoppen, tabellen of navigatie.
+                                </p>
+                            <li><strong>Responsiviteit</strong></li>
+                                <p>
+                                    Bootstrap is ontworpen met een grid-systeem dat automatisch schaalt op basis van schermgrootte. Hierdoor ziet je site er goed uit op elk apparaat, van mobiel tot desktop.
+                                </p>
+                            <li><strong>Consistent design</strong></li>
+                                <p>
+                                    Met Bootstrap werk je met een uniforme stijl. Dit zorgt ervoor dat je website er consistent uitziet, zelfs als meerdere ontwikkelaars eraan werken.
+                                </p>
+                            <li><strong>Grote comunity en documentatie</strong></li>
+                                <p>
+                                    Omdat Bootstrap zo populair is, is er een enorme community die ondersteuning biedt. Je vindt gemakkelijk tutorials, voorbeelden en oplossingen voor problemen. De officiële documentatie is bovendien zeer uitgebreid en duidelijk.
+                                </p>
+                            <li><strong>Compatibiliteit met moderne browsers</strong></li>
+                                <p>
+                                    Bootstrap werkt goed in alle gangbare browsers, zoals Chrome, Firefox, Safari en Edge. Dit vermindert het risico op layoutproblemen.
+                                </p>
+                            <li><strong>Uitbreidbaarheid</strong></li>
+                                <p>
+                                    Je kunt Bootstrap eenvoudig combineren met andere frameworks of je eigen CSS en JavaScript. Het is flexibel genoeg om aan te passen aan jouw specifieke wensen.
+                                </p>
+                </ol>
+                <br>
+                <h4>Wanneer gebruik je Bootstrap?</h4>
+                <p>
+                    Bootstrap is ideaal voor projecten waarbij je snel een prototype of een functionele website wilt bouwen. Het is ook handig voor teams die aan grotere projecten werken en behoefte hebben aan een consistente basis. Voor zeer unieke of complexe designs kan het soms beperkend zijn, maar zelfs dan biedt het een solide startpunt.
+                </p>
+                </div> <!-- via nested rows kan je afbeeldingen herscalen in sectie -->
+
+                <!-- play with it -->
+
+                <div class="customDiv">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--
+<script src="js/bootstrap.js"></script>
+-->
+</body>
+</html>
